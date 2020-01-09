@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Creating a website using Hugo }
+\author{191AEM006 - Sandali - 473-Fall }
+\date{January 2020}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+We were supposed to create a mini website using Hugo. It is the micro-project of module 473 - fall. After creting the website we need to put the link into Github and deploy the site into Netlify.
+in the website we need to introduce ourselves, put links about our media and our github portfolio. 
+
+I tried too many times to complete this project but i can't with my laptop.because installing Ubuntu was too much time consuming and after trying too many times i finally downloaded the Ubuntu using virtualbox. But then again i couldn't connect to the internet, i tried so many example codes to solve the issue "No wi-fi adaptor" but i couldn't even until now. Following are the codes i tried.
+
+@sudo apt-get update
+@sudo apt install git build-essential dkms
+@git clone -b extended https://github.com/lwfingerrtlwifi_new.git
+@sudo dkms add ./rtlwifi_new
+@sudo dkms install rtlwifi_new!
+
+And then reboot and nothing found. the only response i got are;
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1]{wifi adaptor1}
+\caption{wifi}
+\label{fig:wifi adaptor1}
+\end{figure}
+
+
+\end{document}
